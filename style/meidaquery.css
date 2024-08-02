@@ -1,0 +1,52 @@
+@media screen  and (max-width: 576px)  {
+    .fitnessheader {
+        display: flex;
+        flex-direction: column;
+    }  
+    .bigvideobtn {
+        left: 280px;
+        top: -550px; 
+    }
+    .videobtn {  
+        right: 261px;
+        top: -260px;
+    }
+    .circle { 
+        top: -420px;
+        right: -110px;
+    }
+.info{
+    display: none;
+}
+
+.habitcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.runcontainer {
+width: 350px;
+height: 550px;
+display: flex;
+flex-direction: column;
+
+    
+}
+.runcontainer img {
+    width: 350px;
+    height: 200px;
+    border-radius: 16px;
+}
+button.btn {
+    width: 340px;
+    height: 50px;
+    position: relative;
+    padding: 5px 20px 5px 20px;
+}
+.bmisection {
+    display: flex;
+    flex-direction: column;
+}
+
+}
