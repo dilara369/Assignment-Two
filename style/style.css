@@ -189,12 +189,11 @@ color: rgb(255, 255, 255);
     color:rgba(255, 255, 255, 0.5);
  }   
  .runcontainer img{
-    width: 280px;
-    height: 250px;
+    width: 300px;
+    height: 270px;
     border-radius: 16px;
     object-fit: none;
-    object-position: 55% 30%;
-    
+    object-position: 55% 30%; 
  }    
    
  .runcontainer{
@@ -352,10 +351,7 @@ color:rgb(255, 255, 255) ;
     top:-135px;
     right: -18px;
 }
-.team>h1{
 
-}
- 
   /* footer section  */
   footer{
     background-color:  rgb(34, 34, 34);
