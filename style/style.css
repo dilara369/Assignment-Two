@@ -15,7 +15,7 @@
           /* fontstyle */
 body{
     background-color: black;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 header{
     width: 100%;
@@ -54,7 +54,6 @@ header{
     padding: 7.5px 10px 7.5px 2px;
     position: relative;
     left: -300px;
-     
 }
 .fitnessheader{
     display: flex;
@@ -65,9 +64,6 @@ header{
     color: white;
     font-size:4.5rem ;
     font-weight: bold;
-}
-.fitnessheader h1 span{
-    font-style: italic;
 }
 .fitnessheader p{
     font-size: 1rem;
