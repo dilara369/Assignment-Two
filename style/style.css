@@ -79,6 +79,7 @@ header{
    background: rgb(230, 83, 60);
    padding: 15px 35px 15px 35px;
    color: white;
+   border: none;
 }
 .btnapp{ border-radius: 42px;
     background: rgba(255, 255, 255, 0.1);
@@ -126,7 +127,7 @@ color:rgba(255, 255, 255, 0.65);
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: rgb(219, 54, 54);
+    background-color:rgb(230, 83, 60);
     position: relative;
     top: -130px;
     right: -40px;
@@ -193,6 +194,7 @@ color: rgb(255, 255, 255);
     border-radius: 16px;
     object-fit: none;
     object-position: 55% 30%;
+    
  }    
    
  .runcontainer{
@@ -220,7 +222,7 @@ color:rgb(255, 255, 255) ;
     color: rgba(255, 255, 255, 0.5) ;
 }
 .BMI{
-    margin-left: 250px;
+    margin-left: 340px;
 }
                  /* BMI chart */
                  .bmichart>h3{
@@ -248,7 +250,7 @@ color:rgb(255, 255, 255) ;
        
     }
     .bmical > input {
-            background-color: wheat ;
+            border: none;
             padding: 5px;
             border-radius: 8px;
             background-color: rgba(255, 255, 255, 0.1); 
@@ -257,11 +259,31 @@ color:rgb(255, 255, 255) ;
             padding-top: 10px;
             padding-bottom: 10px;
         }
+        .input::placeholder{
+            color: rgba(255, 255, 255, 0.5);
+        }
+        select ,.sex{
+            width:195px ;
+            height:35px ;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.1); 
+            border-radius:8px;
+            color: rgba(255, 255, 255, 0.5);
+           padding-left: 15px;  }
+          
+           .sexoption {
+              padding-left: 50px;
+           }
+          .factor  {
+              width: 395px;    
+              /* select er  moddey vaki shob */
+          }           
 .bmibtn {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 10px 40px 10px 40px;
     color: white;
+    border: none;
     }
 
     /* BMI SECTION  */
@@ -274,9 +296,9 @@ color:rgb(255, 255, 255) ;
     padding: 100px;
     }
 
+    
 
-
-                /* MEET OUE TEAM */
+/* MEET OUE TEAM */
                 
 
 .team>img{
@@ -297,21 +319,21 @@ color:rgb(255, 255, 255) ;
 .teamhead {
            text-align: center;
 }
-.team{
-    margin: 0;
-    padding: 0;
+.team {
+    height: 250px;
 }
+
 .teamcontainer{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* gap: 20px; */
+    gap: 20px;
     justify-content: center;
     border: 1px solid ;
     border-radius: 18px;  
     background:rgba(255, 255, 255, 0.1);
     border-radius: 18px;
     margin: 50px 150px 50px 150px ;
-    padding: 50px;
+    padding:  30px  40px;
 }
 .team>h5 {
     font-size: 1.4rem;
