@@ -15,13 +15,12 @@
           /* fontstyle */
 body{
     background-color: black;
-    /* max-width: 1440px; */
 }
 header{
     width: 100%;
     height: auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    padding: 20px 190px 100px 190px ;
+    
 }
 .nav{
     display: flex;
@@ -194,9 +193,10 @@ color: rgb(255, 255, 255);
    
  .runcontainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 100px 190px 0px 190px ;
+    width: 70%;
+    justify-items: center;
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
     padding: 30px;
@@ -351,7 +351,7 @@ color:rgb(255, 255, 255) ;
   /* footer section  */
   footer{
     background-color:  rgb(34, 34, 34);
-    padding: 30px 200px 10px 150px;
+    /* padding: 30px 200px 10px 150px; */
   
   }
  .footer  div>ul>li  {
@@ -362,21 +362,18 @@ font-size: 1.5rem;
     color: rgb(255, 255, 255);
     font-size: 2rem;
  }
- .footer >h1{
+ .footer h1{
     color: rgb(230, 83, 60);
     font-size: 4rem;
  }
- .footer>p{
+ .footer p{
     color:rgba(255, 255, 255, 0.5) ;
     font-size: .8rem;
  }
- .footerflex{
+ .footer{
     display: flex;
     justify-content:space-around;
-    align-items: center;
-    position: relative;
-    top: -210px;
-    right: -260px;
+    align-items: center;  
  }
  .footerflex ul>li{
     list-style: none;
@@ -384,19 +381,19 @@ font-size: 1.5rem;
  }
  .footdivone{
     position: relative;
-    right: -80px;
+    left: -50px;
  }
  .footdivtwo{
     position: relative;
     left: -100px;
     
  }
- .footerflex h2{
-    position: relative;
-    right: -50px;
- }
+ 
 .footerdiv{
- border: 2px solid rgba(255, 255, 255, 0.1); 
+ border: 2px solid rgba(255, 255, 255, 0.1);
+ width: 70%; 
+ align-items: center;
+
 }
 .footerpsg{
     font-size: 1.4rem;
