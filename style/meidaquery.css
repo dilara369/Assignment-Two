@@ -1,12 +1,37 @@
 @media screen  and (max-width: 576px)  {
+    header{
+        padding: 20px;
+    }
     .fitnessheader {
         display: flex;
         flex-direction: column;
     }  
-    .bigvideobtn {
-        left: 280px;
-        top: -550px; 
+    .fitnessheader h1 {
+        font-size: 2rem;
     }
+    .fitnessheader p {
+        width: 250px; }
+    
+        .btn {
+            /* width: 340px; */
+            height: 50px;
+            position: relative;
+            padding: 5px 20px 5px 20px;
+        }
+
+
+
+        .fitnessheader img {
+            width: 60%; }
+            .bigvideobtn>span {
+                font-size: 2rem; }
+ .bigvideobtn {
+                    border-radius: 10px;
+                    left: 260px;
+                    top: -530px;
+                    padding: 10px 20px;
+                    border: none;
+                }
     .videobtn {  
         right: 261px;
         top: -260px;
@@ -48,5 +73,22 @@ button.btn {
     display: flex;
     flex-direction: column;
 }
-
+.teamcontainer{
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ padding: 50px;
 }
+.footer{
+    flex-direction: column;
+}
+.footerdiv {
+    width: 100%; 
+}
+.footdivone {
+    position: relative;
+    left: -100px;
+}
+}
+
+

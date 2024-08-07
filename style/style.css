@@ -20,12 +20,14 @@ header{
     width: 100%;
     height: auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding: 20px 40px 50px 100px;
     
 }
 .nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     
 }
 .nav >div>a{
@@ -58,6 +60,8 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-between ;
+
+    
 }
 .fitnessheader h1{
     color: white;
@@ -141,6 +145,7 @@ color: rgb(255, 255, 255);
 }
 .habit{
     text-align: center;
+    margin: 0 auto;
 }
   .habitcontainer{
     display: flex;
@@ -167,7 +172,7 @@ color: rgb(255, 255, 255);
    .habitss> img{
     border-radius: 50%;
     /* border: 1px solid white; */
-    padding-left: 22px;  
+    
 }
 
 
@@ -200,6 +205,8 @@ color: rgb(255, 255, 255);
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
     padding: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
  }   
          /* training section */
        
@@ -327,8 +334,11 @@ color:rgb(255, 255, 255) ;
     border-radius: 18px;  
     background:rgba(255, 255, 255, 0.1);
     border-radius: 18px;
-    margin: 50px 150px 50px 150px ;
+    width: 70%; 
+    margin: 0 auto;
+    margin-bottom: 50px;  
     padding:  30px  40px;
+    
 }
 .team>h5 {
     font-size: 1.4rem;
@@ -392,7 +402,7 @@ font-size: 1.5rem;
 .footerdiv{
  border: 2px solid rgba(255, 255, 255, 0.1);
  width: 70%; 
- align-items: center;
+ margin: 0 auto;
 
 }
 .footerpsg{
