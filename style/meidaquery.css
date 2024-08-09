@@ -1,26 +1,14 @@
 @media screen  and (max-width: 576px)  {
-    header{
-        padding: 20px;
-    }
-    .fitnessheader {
-        display: flex;
-        flex-direction: column;
-    }  
+
+    .info{ display: none; }
+
+    
     .fitnessheader h1 {
         font-size: 2rem;
     }
     .fitnessheader p {
         width: 250px; }
     
-        .btn {
-            /* width: 340px; */
-            height: 50px;
-            position: relative;
-            padding: 5px 20px 5px 20px;
-        }
-
-
-
         .fitnessheader img {
             width: 60%; }
             .bigvideobtn>span {
@@ -32,17 +20,21 @@
                     padding: 10px 20px;
                     border: none;
                 }
+.fitnessheader {             
+ flex-direction: column; }               
     .videobtn {  
         right: 261px;
-        top: -260px;
-    }
-    .circle { 
-        top: -420px;
-        right: -110px;
-    }
-.info{
-    display: none;
-}
+        top: -260px; } 
+   .circle {
+    top: -385px;
+    right: -100px;}
+    
+
+.habit >  h2 {
+    font-size: 2.5rem;}
+    .habit>p {
+        width: 300px;
+        margin: 0 auto;} 
 
 .habitcontainer {
     display: flex;
@@ -51,33 +43,46 @@
     flex-direction: column;
 } 
 .runcontainer {
-width: 350px;
-height: 550px;
-display: flex;
-flex-direction: column;
-
-    
+    width: 450px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
 }
 .runcontainer img {
-    width: 350px;
-    height: 200px;
-    border-radius: 16px;
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
 }
-button.btn {
+
+.joinbtn {
     width: 340px;
     height: 50px;
     position: relative;
     padding: 5px 20px 5px 20px;
 }
+.BMI{
+    margin-left: 0;
+}
 .bmisection {
     display: flex;
     flex-direction: column;
 }
+.bmichart{
+    margin-left: 0 ; 
+}
+.teamhead h1 { font-size: 2.4rem;}
+
 .teamcontainer{
  display: flex;
  flex-direction: column;
  width: 50%;
  padding: 50px;
+}
+.teamhead p {
+    width: 360px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
 }
 .footer{
     flex-direction: column;

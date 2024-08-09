@@ -9,9 +9,7 @@
 
 .casual {
   font-family: "Playwrite AR", cursive;
-  font-optical-sizing: auto;
-  
-}
+  font-optical-sizing: auto; }
           /* fontstyle */
 body{
     background-color: black;
@@ -20,9 +18,9 @@ header{
     width: 100%;
     height: auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-    padding: 20px 40px 50px 100px;
-    
 }
+    
+    
 .nav{
     display: flex;
     justify-content: space-between;
@@ -59,10 +57,7 @@ header{
 .fitnessheader{
     display: flex;
     align-items: center;
-    justify-content:space-between ;
-
-    
-}
+    justify-content:space-between ; }
 .fitnessheader h1{
     color: white;
     font-size:4.5rem ;
@@ -171,7 +166,7 @@ color: rgb(255, 255, 255);
 }
    .habitss> img{
     border-radius: 50%;
-    /* border: 1px solid white; */
+    border: 3px solid rgb(70, 70, 70);
     
 }
 
@@ -195,7 +190,13 @@ color: rgb(255, 255, 255);
     object-fit: none;
     object-position: 55% 30%; 
  }    
-   
+.joinbtn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 15px 35px 15px 35px;
+    color: white;
+    border: none; 
+}  
  .runcontainer{
     display: flex;
     justify-content: space-between;
@@ -224,7 +225,7 @@ color:rgb(255, 255, 255) ;
     color: rgba(255, 255, 255, 0.5) ;
 }
 .BMI{
-    margin-left: 340px;
+    margin-left: 300px;
 }
                  /* BMI chart */
                  .bmichart>h3{
