@@ -1,7 +1,7 @@
 @media screen  and (max-width: 576px)  {
- body{
+ /* body{
     border: 5px solid rgb(80, 78, 78);
- }
+ } */
     .info{ display: none; }
     .icon{
         display: block;
@@ -9,42 +9,54 @@
         justify-content: space-between;
      }
     header{
-        height: 750px;
+        height: 650px;
     }
+    .nav h2 {
+        font-size: 2rem; }
     .fitnessheader h1 {
         font-size: 2rem;
     }
     .fitnessheader p {
         width: 250px; }
-    
+        .btn {
+            border-radius: 35px;
+            padding: 10px;}
+            .btnapp {
+                border-radius: 35px;
+                padding: 10px; }
+
+        .fitnessheader{
+            width: 80%;
+            margin: 0 auto;
+        }
         .fitnessheader img {
             width: 60%; }
             .bigvideobtn>span {
-                font-size: 2rem; }
+                font-size: 1.2rem; }
  
                 .bigvideobtn {
-                    width: 160px;
+                    width: 150px;
                     border-radius: 10px;
-                    left: 60px;
-                    top: -310px;
-                    padding: 10px 20px;
+                    left: 160px;
+                    top: -290px;
+                    padding: 10px;
                     border: none;
                 } 
 .fitnessheader {
 flex-direction: column;
 width: 60%;}             
-    .videobtn {  
-        left: 35px;
-        top: -220px;
-        padding: 10px 30px 10px 30px;
-     } 
+.videobtn {
+    left: 25px;
+    top: -170px;
+    padding: 10px 25px;
+} 
         .videobtn>span {
-            font-size: 1.4rem;}
+            font-size: 1rem;}
             .circle {
-                top: -265px;
-                right: -50px;
-                width: 20px;
-                height: 20px;
+                top: -270px;
+                right: -48px;
+                width: 15px;
+                height: 15px;
             }
 
 .habit >  h2 {
@@ -65,25 +77,31 @@ width: 60%;}
     display: flex;
     flex-direction: column;
 }
+.run >h1 {
+    font-size: 2.4rem; }
 .runcontainer img {
     width: 100%;
     height: 300px;
     border-radius: 20px;
 }
-
+.run>p {
+    font-size: .7rem;}
 .joinbtn {
-    width: 360px;
+    width: 310px;
     height: 50px;
     margin-bottom:10px;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 20px;
 }
 .BMI{
     margin-left: 0;}
 .BMI > h1 {
-    font-size: 2.5rem;}
-.BMI>p { width: 300px;}
+    font-size: 2rem;}
+    .BMI>p {
+        width: 260px;
+        font-size: 0.7rem;}
 .bmisection {
     flex-direction: column;
+    
 }
 .bmichart{
     margin-left: 0 ;
@@ -111,6 +129,8 @@ width: 60%;}
     margin-bottom: 20px;
 
 }
+.footer p {
+    width: 70%;}
 .footer{
     flex-direction: column;
 }
@@ -121,6 +141,9 @@ width: 60%;}
     position: relative;
     left: -100px;
 }
+.footer  div>ul>li {
+    font-size: 1rem;}
+ 
 }
 
 
