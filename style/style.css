@@ -43,9 +43,12 @@ header{
 .home{
     border: none;
     border-radius: 30px;
-    background: rgb(230, 83, 60);
+    background: rgb(104, 98, 98);
     padding: 6px 15px 6px 15px
     
+}
+.home:hover{
+    background-color: rgb(189, 10, 10);
 }
 .info{
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -74,12 +77,14 @@ header{
    padding: 15px 35px 15px 35px;
    color: white;
    border: none;
+   cursor: pointer;
 }
 .btnapp{ border-radius: 42px;
     background: rgba(255, 255, 255, 0.1);
     padding: 15px 35px 15px 35px;
     color: white;
-    border: 1px solid rgb(255, 255, 255);  }
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;  }
     .fitnessheader img{
         position: relative;
         right: -80px ;
@@ -196,6 +201,7 @@ color: rgb(255, 255, 255);
     padding: 15px 35px 15px 35px;
     color: white;
     border: none; 
+    cursor: pointer;
 }  
  .runcontainer{
     display: flex;
@@ -287,6 +293,7 @@ color:rgb(255, 255, 255) ;
     padding: 10px 40px 10px 40px;
     color: white;
     border: none;
+    cursor: pointer;
     }
 
     /* BMI SECTION  */
@@ -415,5 +422,91 @@ font-size: 1.5rem;
     
 }
  
+/* unique section  */
+.fitt{
+    display: flex;
+    justify-content: space-around;
+}
+.fitt> h1 {
+    color: rgb(224, 131, 131);
+}
+.fitt > p{
+    font-size: 1rem;
+    color: rgb(168, 142, 142);
+}
+.yougaimg{
+    width: 100px;
+}
+.youga , h3 {
+    font-size: 1.5rem;
+    color:rgb(255, 255, 255) ;
+}
+.yougapasg {
+    width: 250px; 
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.5); 
+}
+.YOUGA{
+    display: flex;
+    justify-content: space-around;
+
+}
+.youga-1{
+    border: 3px solid rgb(155, 222, 135);
+    border-radius: 15px;
+    background-color: rgb(1, 128, 85); 
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.one{
+    background-color: rgb(5, 158, 107);
+}
+
+.youga-2{
+    border: 3px solid rgb(122, 77, 77);
+    border-radius: 15px;
+    background-color: rgb(185, 154, 114);
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.two{
+    background-color: rgb(226, 188, 138);
+}
+.youga-3{
+    border: 3px solid rgb(165, 209, 223);
+    border-radius: 15px;
+    background-color: rgb(86, 146, 146);
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.three{
+    background-color: rgb(119, 197, 197);
+}
+.youga-4{
+    border: 3px solid rgb(121, 196, 171);
+    border-radius: 15px;
+    background-color: rgb(24, 46, 36);
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.four{
+    background-color: rgb(53, 99, 78);
+}
+.yougabutn{
+    border: none;
+    outline: none;
+    cursor: pointer; 
+     padding: 5px 10px ;
+     border-radius: 15px;
+     text-decoration: underline;
+}
+.youga , button:hover{
+    background-color: rgb(163, 115, 115);
+    border:2px solid black
+}
 
 
