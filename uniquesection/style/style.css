@@ -1,0 +1,22 @@
+/* unique section  */
+.fitt{
+    display: flex;
+    justify-content: space-between;
+}
+.fitt > p{
+    font-size: 1rem;
+}
+.youga , img{
+    width: 80px;
+}
+.youga , h3 {
+    font-size: 1.5rem;
+}
+.youga , p{
+    width: 250px; 
+    font-size: .8rem; 
+}
+.unique{
+    display: flex;
+    justify-content: space-around;
+}

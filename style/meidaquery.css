@@ -9,7 +9,7 @@
         justify-content: space-between;
      }
     header{
-        height: 650px;
+        height: 720px;
     }
     .nav h2 {
         font-size: 2rem; }
@@ -37,24 +37,25 @@
                 .bigvideobtn {
                     width: 150px;
                     border-radius: 10px;
-                    left: 160px;
-                    top: -290px;
+                    left: 200px;
+                    top: -315px;
                     padding: 10px;
                     border: none;
-                } 
+                }
 .fitnessheader {
 flex-direction: column;
 width: 60%;}             
 .videobtn {
-    left: 25px;
-    top: -170px;
+    right: 145px;
+    top: -155px;
     padding: 10px 25px;
-} 
+    border: none;
+}
         .videobtn>span {
             font-size: 1rem;}
             .circle {
-                top: -270px;
-                right: -48px;
+                top: -255px;
+                right: -85px;
                 width: 15px;
                 height: 15px;
             }
@@ -87,7 +88,7 @@ width: 60%;}
 .run>p {
     font-size: .7rem;}
 .joinbtn {
-    width: 310px;
+    width: 350px;
     height: 50px;
     margin-bottom:10px;
     padding: 5px 20px;
@@ -145,5 +146,26 @@ width: 60%;}
     font-size: 1rem;}
  
 }
-
+ 
+@media screen and (max-width: 425px) {
+    .bigvideobtn {
+        width: 150px;
+        border-radius: 10px;
+        left: 160px;
+        top: -290px;
+        padding: 10px;
+        border: none;}
+        .videobtn {
+            left: 30px;
+            top: -160px;
+            padding: 10px 25px;
+            border: none;
+        }
+        .circle {
+            top: -258px;
+            right: -50px;
+            width: 16px;
+            height: 16px;
+        }
+}
 

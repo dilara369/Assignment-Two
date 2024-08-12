@@ -57,7 +57,7 @@ header{
 .fitnessheader{
     display: flex;
     align-items: center;
-    justify-content:space-between ; }
+    justify-content:space-between ;}
 .fitnessheader h1{
     color: white;
     font-size:4.5rem ;
@@ -415,3 +415,5 @@ font-size: 1.5rem;
     
 }
  
+
+
