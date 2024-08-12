@@ -3,20 +3,83 @@
     display: flex;
     justify-content: space-between;
 }
+.fitt> h1 {
+    color: rgb(224, 131, 131);
+}
 .fitt > p{
     font-size: 1rem;
+    color: rgb(68, 31, 31);
 }
 .youga , img{
-    width: 80px;
+    width: 100px;
 }
 .youga , h3 {
     font-size: 1.5rem;
+    color:rgb(255, 255, 255) ;
 }
 .youga , p{
     width: 250px; 
-    font-size: .8rem; 
+    font-size: .8rem;
+    color: rgba(255, 255, 255, 0.5); 
 }
 .unique{
     display: flex;
     justify-content: space-around;
+}
+.youga-1{
+    border: 3px solid burlywood;
+    border-radius: 15px;
+    background-color: rgb(1, 128, 85); 
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.youga-1 > button{
+    background-color: rgb(5, 158, 107);
+}
+
+.youga-2{
+    border: 3px solid rgb(22, 21, 21);
+    border-radius: 15px;
+    background-color: rgb(185, 154, 114);
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.youga-2 > button{
+    background-color: rgb(226, 188, 138);
+}
+.youga-3{
+    border: 3px solid rgb(119, 98, 98);
+    border-radius: 15px;
+    background-color: rgb(86, 146, 146);
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.youga-3 > button{
+    background-color: rgb(119, 197, 197);
+}
+.youga-4{
+    border: 3px solid rgb(121, 196, 171);
+    border-radius: 15px;
+    background-color: rgb(24, 46, 36);
+    width: 250px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+.youga-4 > button{
+    background-color: rgb(53, 99, 78);
+}
+.youga , button{
+    border: none;
+    outline: none;
+    cursor: pointer; 
+     padding: 5px 10px ;
+     border-radius: 15px;
+     text-decoration: underline;
+}
+.youga , button:hover{
+    background-color: rgb(163, 115, 115);
+    border:2px solid black
 }
