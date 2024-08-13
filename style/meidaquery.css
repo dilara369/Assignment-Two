@@ -9,7 +9,7 @@
         justify-content: space-between;
      }
     header{
-        height: 720px;
+        height: 650px;
     }
     .nav h2 {
         font-size: 2rem; }
@@ -199,7 +199,7 @@ width: 60%;}
             right: -52px;
         }
         header{
-            height: 650px;
+            height: 550px;
         }  
         
 }
