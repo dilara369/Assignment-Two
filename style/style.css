@@ -11,6 +11,10 @@
   font-family: "Playwrite AR", cursive;
   font-optical-sizing: auto; }
           /* fontstyle */
+          *{
+            margin: 0;
+            padding: o;
+          }
 body{
     background-color: black;
 }
@@ -18,15 +22,17 @@ header{
     width: 100%;
     height: auto;
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-}
-    
- .icon{display: none;}   
+} 
+ .icon{display: none;} 
+ nav{
+    /* display: flex; */
+    justify-content: center;
+ }
 .nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center;  
+ 
 }
 .nav >div>a{
     text-decoration: none;
@@ -44,11 +50,11 @@ header{
     border: none;
     border-radius: 30px;
     background: rgb(104, 98, 98);
-    padding: 6px 15px 6px 15px
+    padding: 5px 15px;
     
 }
 .home:hover{
-    background-color: rgb(189, 10, 10);
+    background-color: rgb(230, 83, 60);
 }
 .info{
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -60,7 +66,10 @@ header{
 .fitnessheader{
     display: flex;
     align-items: center;
-    justify-content:space-between ;}
+    justify-content:space-between ;
+
+
+}
 .fitnessheader h1{
     color: white;
     font-size:4.5rem ;
@@ -131,7 +140,6 @@ color:rgba(255, 255, 255, 0.65);
     top: -130px;
     right: -40px;
 }
-
    /* main habit section   */
 .habit >  h2 {
 font-size: 2.8rem;
